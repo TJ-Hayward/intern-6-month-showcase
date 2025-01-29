@@ -1,25 +1,23 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './vanessa.css';
 import { motion } from 'framer-motion';
-import ICA from '/ICA.png';
-import VANESSA from '/VANESSA.png';
-import THINK from '/THINK.jpg';
-import FRIENDS from '/FRIENDS.jpg';
-import ADA from '/ADA.jpg';
-import AWS from '/AWS.png';
+import ica from '/ICA.png';
+import vanessa from '/VANESSA.png';
+import think from '/THINK.jpg';
+import friends from '/FRIENDS.jpg';
+import ada from '/ADA.jpg';
+import aws from '/AWS.png';
 import badgelist from '/BADGELIST.png';
-
 import confluence from '/confluence.png';
-
 import electronics from '/ELECTRONICS.png';
 import futures from '/futures.png';
 import graphql from '/graphql.png';
-import LLOYDS from '/LLOYDS.jpeg';
+import lloyds from '/LLOYDS.jpeg';
 import Merge from '/Merge.png';
-import SUPER from '/SUPER.png';
+import supeR from '/SUPER.png';
 import superlearner from '/SUPERLEARNER.png';
+import brg from '/brg.jpg';
 
-import BRG from '/brg.jpg';
 const Vanessa = () => {
   const [activeSection, setActiveSection] = useState('About Me');
 
@@ -48,11 +46,11 @@ const Vanessa = () => {
             </ul>
           </p>
           <div>
-            <img src={VANESSA} alt='Vanessa' className='about-image' />
+            <img src={vanessa} alt='Vanessa' className='about-image' />
             <span className='flex-label'>First day at IBM</span>
           </div>
           <div>
-            <img src={FRIENDS} alt='Vanessa' className='about-image' />
+            <img src={friends} alt='Vanessa' className='about-image' />
             <span className='flex-label'>Intern innovation day</span>
           </div>
         </div>
@@ -109,7 +107,7 @@ const Vanessa = () => {
                 </li>
                 <li>Working closely with the technical leads on the project</li>
               </ul>
-              <img src={ICA} alt='My Role' className='section-image' />
+              <img src={ica} alt='My Role' className='section-image' />
               <span className='flex-label'>
                 Newsletter publication on ICA enablement
               </span>
@@ -174,13 +172,13 @@ const Vanessa = () => {
         transition={{ duration: 0.8 }}
       >
         <h2>Giveback</h2>
-        <img src={ADA} alt='Giveback' className='section-image' />
+        <img src={ada} alt='Giveback' className='section-image' />
         <p>Volunteering as a speaker at the ADA Lovelace Day 2024</p>
-        <img src={THINK} alt='Giveback' className='section-image' />
+        <img src={think} alt='Giveback' className='section-image' />
         <p>Volunteering at THINK London 2024 with IBM</p>
-        <img src={LLOYDS} alt='Giveback' className='section-image' />
+        <img src={lloyds} alt='Giveback' className='section-image' />
         <p>Presenting in the Lloyds x IBM hackathon event</p>
-        <img src={BRG} alt='Giveback' className='section-image' />
+        <img src={brg} alt='Giveback' className='section-image' />
         <p>Participation in the EP embrace black BRG events</p>
       </motion.div>
     ),
@@ -203,13 +201,13 @@ const Vanessa = () => {
           Getting a Futures intern end of year recognition for always giving
           high quality deliverables and being helpful
         </p>
-        <img src={AWS} alt='Giveback' className='section-image' />
+        <img src={aws} alt='Giveback' className='section-image' />
         <p>
           Learning to deploy a full stack application on the AWS cloud as a
           beginner
         </p>
         <img src={badgelist} alt='Giveback' className='section-image' />
-        <img src={SUPER} alt='Giveback' className='section-image' />
+        <img src={supeR} alt='Giveback' className='section-image' />
 
         <p>Some of the badges I earned during my time</p>
         <img src={graphql} alt='Giveback' className='section-image' />
@@ -230,7 +228,7 @@ const Vanessa = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
         >
-          Vanessa's IBM Journey
+          Vanessa&apos;s IBM Journey
         </motion.h1>
       </header>
 
