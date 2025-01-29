@@ -1,14 +1,14 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './marlene.css';
-import my_photo from '/Screenshot 2025-01-29 at 15.06.18.png';
-import boots from '/Screenshot 2025-01-17 at 02.34.50.png';
-import ica from '/Screenshot 2025-01-29 at 15.40.21.png';
-import user_stories from '/Screenshot 2025-01-29 at 15.42.54.png';
-import acs from '/Screenshot 2025-01-29 at 15.42.21.png';
-import nhs from '/Screenshot 2025-01-17 at 12.42.04.png';
-import nhs_phone from '/Screenshot 2025-01-17 at 00.36.32.png';
-import r_m from '/Screenshot 2025-01-29 at 16.08.36.png';
-import give_back from '/Screenshot 2025-01-29 at 16.27.13.png';
+import my_photo from '../../assets/Screenshot 2025-01-29 at 15.06.18.png';
+import boots from '../../assets/Screenshot 2025-01-17 at 02.34.50.png';
+import ica from '../../assets/Screenshot 2025-01-29 at 15.40.21.png';
+import user_stories from '../../assets/Screenshot 2025-01-29 at 15.42.54.png';
+import acs from '../../assets/Screenshot 2025-01-29 at 15.42.21.png';
+import nhs from '../../assets/Screenshot 2025-01-17 at 12.42.04.png';
+import nhs_phone from '../../assets/Screenshot 2025-01-17 at 00.36.32.png';
+import r_m from '../../assets/Screenshot 2025-01-29 at 16.08.36.png';
+import give_back from '../../assets/Screenshot 2025-01-29 at 16.27.13.png';
 
 const Marlene = () => {
   const [step, setStep] = useState(0);

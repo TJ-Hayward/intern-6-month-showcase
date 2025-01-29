@@ -1,22 +1,23 @@
 import { useState } from 'react';
 import './vanessa.css';
 import { motion } from 'framer-motion';
-import ica from '/ICA.png';
-import vanessa from '/VANESSA.png';
-import think from '/THINK.jpg';
-import friends from '/FRIENDS.jpg';
-import ada from '/ADA.jpg';
-import aws from '/AWS.png';
-import badgelist from '/BADGELIST.png';
-import confluence from '/confluence.png';
-import electronics from '/ELECTRONICS.png';
-import futures from '/futures.png';
-import graphql from '/graphql.png';
-import lloyds from '/LLOYDS.jpeg';
-import Merge from '/Merge.png';
-import supeR from '/SUPER.png';
-import superlearner from '/SUPERLEARNER.png';
-import brg from '/brg.jpg';
+
+import ica from '../../assets/ICA.png';
+import vanessa from '../../assets/VANESSA.png';
+import think from '../../assets/THINK.jpg';
+import friends from '../../assets/FRIENDS.jpg';
+import ada from '../../assets/ADA.jpg';
+import aws from '../../assets/AWS.png';
+import badgelist from '../../assets/BADGELIST.png';
+import confluence from '../../assets/confluence.png';
+import electronics from '../../assets/ELECTRONICS.png';
+import futures from '../../assets/futures.png';
+import graphql from '../../assets/graphql.png';
+import lloyds from '../../assets/LLOYDS.jpeg';
+import Merge from '../../assets/Merge.png';
+import supeR from '../../assets/SUPER.png';
+import superlearner from '../../assets/SUPERLEARNER.png';
+import brg from '../../assets/brg.jpg';
 
 const Vanessa = () => {
   const [activeSection, setActiveSection] = useState('About Me');
