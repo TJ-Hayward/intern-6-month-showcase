@@ -1,0 +1,144 @@
+.marlene-container {
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  min-height: 100vh;
+}
+
+.marlene-heading {
+  font-size: 3rem;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.marlene-container p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+/* Ensure sections have relative positioning */
+.marlene-about-me,
+.marlene-boots,
+.marlene-nhs-app,
+.marlene-give-back {
+  position: relative;
+  min-height: 80vh;
+  padding: 40px 20px;
+  margin-bottom: 20px;
+}
+
+/* Ensure bullet lists are aligned consistently */
+.marlene-about-me ul,
+.marlene-boots ul,
+.marlene-nhs-app ul,
+.marlene-give-back ul {
+  text-align: left;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+/* Centered container for the first button */
+.marlene-button-container-center {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Flexbox container for other buttons */
+.marlene-button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+}
+
+/* Button styles */
+.marlene-button {
+  padding: 12px 25px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  background-color: #0078d4;
+  /* IBM Blue */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.marlene-button:hover {
+  background-color: #005a99;
+  /* Darker IBM Blue */
+}
+
+/* Specific styles for "Back" button */
+.marlene-button.back {
+  background-color: #0078d4;
+  /* Red for "Go Back" button */
+}
+
+.marlene-button.back:hover {
+  background-color: #0078d4;
+}
+
+/* Style for images */
+.marlene-photo {
+  width: 100%;
+  border-radius: 8px;
+  display: block;
+  margin: 20px auto;
+}
+
+.marlene-photo-small {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+
+.marlene-photo-med {
+  width: 25rem;
+  height: auto;
+  /* width: 100%; */
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  margin: 20px auto;
+  /* Adjust this to the desired size */
+}
+
+/* Make the GiveBack image larger */
+.marlene-photo-large {
+  width: 85rem;
+  height: auto;
+  /* width: 100%; */
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  margin: 20px auto;
+  /* Adjust this to the desired size */
+}
+
+@media (max-width: 768px) {
+  .marlene-heading {
+    font-size: 2.5rem;
+  }
+
+  .marlene-about-me h2,
+  .marlene-boots h2,
+  .marlene-nhs-app h2,
+  .marlene-give-back h2 {
+    font-size: 1.8rem;
+  }
+
+  .marlene-photo {
+    max-width: 250px;
+  }
+
+  .marlene-button {
+    padding: 8px 18px;
+    font-size: 1.3rem;
+  }
+}
