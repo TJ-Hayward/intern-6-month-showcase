@@ -1,5 +1,5 @@
-import VanessaMarlene from '/vanessa-marlene.jpeg';
 import './home.css';
+import ImageForHome from '../components/imageForHome';
 
 function HomePage() {
   return (
@@ -14,11 +14,7 @@ function HomePage() {
           We hope you enjoy our presentation and learn a bit more about our
           skills and achievements as interns in IBM iX so far!
         </p>
-        <img
-          src={VanessaMarlene}
-          alt='Vanessa and Marlene'
-          className='vanessa-marlene-image'
-        />
+        <ImageForHome />
         <div className='button-container'>
           <button
             className='nav-button'
