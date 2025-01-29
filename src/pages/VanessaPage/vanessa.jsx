@@ -2,24 +2,24 @@ import React, { useState } from 'react';
 import './vanessa.css';
 import { motion } from 'framer-motion';
 import ICA from '/ICA.png';
-import VANESSA from '/VANESSA.PNG?url';
-import THINK from '/THINK.jpg?url';
-import FRIENDS from '/FRIENDS.JPG?url';
-import ADA from '/ADA.jpg?url';
-import AWS from '/AWS.png?url';
-import badgelist from '/BADGELIST.png?url';
+import VANESSA from '/VANESSA.png';
+import THINK from '/THINK.jpg';
+import FRIENDS from '/FRIENDS.jpg';
+import ADA from '/ADA.jpg';
+import AWS from '/AWS.png';
+import badgelist from '/BADGELIST.png';
 
-import confluence from '/confluence.png?url';
+import confluence from '/confluence.png';
 
-import electronics from '/ELECTRONICS.png?url';
-import futures from '/futures.png?url';
-import graphql from '/graphql.png?url';
-import LLOYDS from '/LLOYDS.jpeg?url';
-import Merge from '/Merge.png?url';
-import SUPER from '/SUPER.png?url';
-import superlearner from '/SUPERLEARNER.png?url';
+import electronics from '/ELECTRONICS.png';
+import futures from '/futures.png';
+import graphql from '/graphql.png';
+import LLOYDS from '/LLOYDS.jpeg';
+import Merge from '/Merge.png';
+import SUPER from '/SUPER.png';
+import superlearner from '/SUPERLEARNER.png';
 
-import BRG from '/brg.JPG?url';
+import BRG from '/brg.jpg';
 const Vanessa = () => {
   const [activeSection, setActiveSection] = useState('About Me');
 
