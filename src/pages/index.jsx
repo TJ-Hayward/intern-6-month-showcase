@@ -1,4 +1,4 @@
-import VanessaMarlene from '../assets/vanessa-marlene.jpeg';
+import VanessaMarlene from '/vanessa-marlene.jpeg';
 import './home.css';
 
 function HomePage() {
